@@ -97,7 +97,10 @@ p{
   text-transform: uppercase;
 	background: linear-gradient(45deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
 	background-clip: text;
-	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
  }
  
 @media (max-width: 991px) {
@@ -107,14 +110,13 @@ p{
   }
   @media (max-width: 575px) {
     .contentintro{
-        height: 90vh;
-        display: none;
+        height: 100%;
     }
     .carousel{
         display: none;
     }
     .mobileslide{
-        display: flex;
+        display: block;
     }
     .contentimg{
       display: flex;

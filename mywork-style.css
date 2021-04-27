@@ -70,6 +70,10 @@ p{
 	background: linear-gradient(180deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 .btn-grad {background-image: linear-gradient(to right, rgba(255,95,109,1) 0%, rgba(255,195,113,1)  100%)}
 .btn-grad {
