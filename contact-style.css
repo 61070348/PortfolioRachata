@@ -8,7 +8,10 @@ body{
     font-family: 'Rubik', sans-serif;
   }
 .contentimg{
-    background-color: rosybrown;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contentintro{
 
@@ -54,7 +57,7 @@ body{
 }
 h1{
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 60pt;
     text-transform: uppercase;
 	background: linear-gradient(180deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
 	background-clip: text;
@@ -93,5 +96,8 @@ P{
     .txtintro{
         margin:auto;
         margin-bottom: 0px;
+    }
+    .contentimg{
+        display: none;
     }
   }

@@ -5,7 +5,7 @@
 }
 body{
   background-color: #ebded4;
-  height: auto;
+  height: 100%;
   font-family: 'Rubik', sans-serif;
 }
 p{
@@ -107,6 +107,12 @@ p{
     .contentintro{
         height: 70vh;
     }
+    p.det{
+      font-size: 15pt;
+    }
+    .contentimg{
+      justify-content: center;
+    }
   }
   @media (max-width: 575px) {
     .contentintro{
@@ -123,5 +129,8 @@ p{
       justify-content: center;
       margin-bottom: 30px;
       
+    }
+    p.det{
+      font-size: 12pt;
     }
   }
