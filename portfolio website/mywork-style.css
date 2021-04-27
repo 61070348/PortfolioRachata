@@ -1,0 +1,91 @@
+.navbar-nav > li{
+    padding-left:5px;
+    padding-right:5px;
+}
+body{
+  background-color: #ebded4;
+  height: auto;
+  font-family: 'Rubik', sans-serif;
+  overflow-x: hidden;
+}
+.row{
+    display: flex;
+    margin: auto;
+}
+p{
+    margin: 0;
+  }
+.contentimg{
+    background-color: rosybrown;
+    height: 100vh;
+}
+.contentintro{
+    background-color: salmon ;
+    display: flex;
+    align-items: center;
+}
+.txtintro{
+    height:auto;
+    width:auto; 
+    margin:auto;
+}
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #cfbfb0;
+  text-align: center;
+  font-size: 15px;
+  justify-content:center; 
+  align-items:center;
+  width: 100%;
+}
+.homeicon{
+  color: rgb(10, 10, 17);
+  transition:0.5s;
+}
+.homeicon:hover {
+    transform: scale(1.2);
+}
+.nav-link{
+    color: rgb(10, 10, 17) !important;
+    transition:0.5s;
+  }
+.nav-link:hover{
+    transform: scale(1.2);
+}
+#ico{
+    color: white;
+    cursor: pointer;
+    transition:0.5s;
+  }
+  #ico:hover{
+    transform: scale(1.2);
+    color: rgb(10, 10, 17);
+  }
+.mywork{
+  font-weight: bold;
+  font-size: 70pt;
+  text-transform: uppercase;
+	background: linear-gradient(180deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.btn-grad {background-image: linear-gradient(to right, rgba(255,95,109,1) 0%, rgba(255,195,113,1)  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   width: 200px;
+   text-decoration: none;
+ }
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }

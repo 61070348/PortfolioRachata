@@ -1,0 +1,94 @@
+.navbar-nav > li{
+    padding-left:5px;
+    padding-right:5px;
+}
+body{
+    background-color: #ebded4;
+    height: auto;
+    font-family: 'Rubik', sans-serif;
+  }
+.contentimg{
+    background-color: rosybrown;
+}
+.contentintro{
+
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.txtintro{
+    height:auto;
+    width:auto; 
+    margin:auto;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iconsocial{
+    height:auto;
+    width:auto; 
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+}
+#para{
+    margin: 0;
+}
+#icon{
+    width: 40px;
+    margin-left: 50px ;
+    margin-right: 50px ;
+    color: rgb(10, 10, 17);
+    cursor: pointer;
+    transition:0.5s;
+}
+#icon:hover{
+    transform: scale(1.2);
+}
+
+.hov:hover{
+    color: rgba(255,95,109,1);
+}
+h1{
+    font-weight: bold;
+    font-size: 50pt;
+    text-transform: uppercase;
+	background: linear-gradient(180deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.homeicon{
+  color: rgb(10, 10, 17);
+  transition:0.5s;
+}
+.homeicon:hover {
+    transform: scale(1.2);
+}
+.nav-link{
+    color: rgb(10, 10, 17) !important;
+    transition:0.5s;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+#ico{
+  color: white;
+  cursor: pointer;
+  transition:0.5s;
+}
+#ico:hover{
+  transform: scale(1.2);
+  color: rgb(10, 10, 17);
+}
+P{
+    margin-bottom: 50px;
+}
+@media (max-width: 576px) {
+    .txtintro{
+        margin:auto;
+        margin-bottom: 0px;
+    }
+  }
