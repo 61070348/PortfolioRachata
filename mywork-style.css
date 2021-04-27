@@ -88,11 +88,6 @@ p{
    border-radius: 10px;
    width: 200px;
    text-decoration: none;
-   background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
  }
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
