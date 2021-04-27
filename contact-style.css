@@ -3,7 +3,8 @@
     padding-right:5px;
 }
 body{
-    background-color: #ebded4;
+    background: rgb(235,222,212);
+    background: radial-gradient(circle, rgba(235,222,212,1) 0%, rgba(255,255,255,1) 100%);  
     height: auto;
     font-family: 'Rubik', sans-serif;
   }

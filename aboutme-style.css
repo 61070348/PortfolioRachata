@@ -20,9 +20,8 @@ body{
 }
 .myname{
   font-weight: bold;
-  font-size: 40pt;
   text-transform: uppercase;
-	background: linear-gradient(180deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
+	background: linear-gradient(45deg, rgba(255,95,109,1) 20%, rgba(255,195,113,1) 100%);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
