@@ -4,7 +4,8 @@
 }
 body{
   background-color: #ebded4;
-  height: auto;
+  height: 100%;
+  width: 100%;
   font-family: 'Rubik', sans-serif;
   overflow-x: hidden;
 }
