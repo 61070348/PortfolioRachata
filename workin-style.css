@@ -108,12 +108,13 @@ p{
   @media (max-width: 575px) {
     .contentintro{
         height: 90vh;
+        display: none;
     }
     .carousel{
         display: none;
     }
     .mobileslide{
-        display: block;
+        display: flex;
     }
     .contentimg{
       display: flex;
